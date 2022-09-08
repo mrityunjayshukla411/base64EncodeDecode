@@ -13,7 +13,7 @@ const ActionCard = (props) => {
           {props.subHeading}
         </h1>
         <div className="relative mb-4">
-          <label for="message" className="leading-7 text-sm text-gray-400">
+          <label htmlFor="message" className="leading-7 text-sm text-gray-400">
             {props.message}
           </label>
           <textarea
@@ -40,7 +40,7 @@ const ActionCard = (props) => {
           </svg>
         </button>
         <div className="relative mb-4">
-          <label for="message" className="leading-7 text-sm text-gray-400">
+          <label htmlFor="message" className="leading-7 text-sm text-gray-400">
             OUTPUT
           </label>
           <textarea
