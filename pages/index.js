@@ -18,8 +18,6 @@ export default function Home() {
           <div className="flex flex-wrap -m-4">
           <ActionCard heading="Base64 Encode" subHeading="Encode" buttonLabel="Encode" message="Enter the message you want to encode"/>
           <ActionCard heading="Base64 Decode" subHeading="Decode" buttonLabel="Decode" message="Enter the message you want to decode"/>
-          {/* <ActionCard heading="Base64 Encode" subHeading="Encode"/>
-          <ActionCard heading="Base64 Encode" subHeading="Encode"/> */}
           </div>
         </div>
       </section>
